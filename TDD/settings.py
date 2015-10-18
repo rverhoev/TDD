@@ -25,8 +25,10 @@ SECRET_KEY = '=127=3-pnlt@km_v&hl)6f&la%)km4r9ga9+p_qojnp32j21-b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = DEBUG
 
+# Needed when DEBUG=False
+ALLOWED_HOSTS = ['superlists.dev-server.nl', '127.0.0.1']
 
 # Application definition
 
@@ -48,7 +50,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #    'django.middleware.security.SecurityMiddleware',
+#    'django.middleware.security.SecurityMiddleware',
 )
 
 ROOT_URLCONF = 'TDD.urls'
@@ -103,7 +105,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, '../static')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "../static"),
-    '/var/www/rverhoev/static/',
-)
