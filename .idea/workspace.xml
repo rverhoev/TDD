@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a5a6b8-2fcf-4d40-95b0-a99b1e7b8448" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lists/templates/base.html" afterPath="$PROJECT_DIR$/lists/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDD.iws" />
@@ -833,7 +832,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445170784927</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add static tag">
+      <created>1445170846431</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1445170846431</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
