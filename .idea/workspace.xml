@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a5a6b8-2fcf-4d40-95b0-a99b1e7b8448" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/settings.py" afterPath="$PROJECT_DIR$/TDD/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD/urls.py" afterPath="$PROJECT_DIR$/TDD/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -49,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TDD/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.35329342">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#612#653#0" expanded="true" />
               </folding>
@@ -115,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TDD/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6766467">
+            <state vertical-scroll-proportion="0.0">
               <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
@@ -193,8 +192,8 @@
         <option value="$PROJECT_DIR$/functional_tests/tests.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
-        <option value="$PROJECT_DIR$/TDD/urls.py" />
         <option value="$PROJECT_DIR$/TDD/settings.py" />
+        <option value="$PROJECT_DIR$/TDD/urls.py" />
       </list>
     </option>
   </component>
@@ -812,7 +811,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445170286530</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add static tag">
+      <created>1445170493580</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1445170493580</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1270,14 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1320,21 +1317,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDD/urls.py">
+    <entry file="file://$PROJECT_DIR$/TDD/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="e#612#653#0" expanded="true" />
-          </folding>
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDD/settings.py">
+    <entry file="file://$PROJECT_DIR$/lists/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6766467">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TDD/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35329342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#612#653#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
