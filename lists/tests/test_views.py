@@ -4,28 +4,21 @@ from django.test import TestCase
 from django.http import HttpRequest
 
 from lists.views import home_page
+from lists.forms import ItemForm
 from lists.models import Item, List
 from django.utils.html import escape
 
 
 class HomePageTest(TestCase):
-    def test_root_url_resolves_to_home_page(self):
-        found = resolve("/")
-        self.assertEqual(found.func, home_page)
+    maxDiff = None
 
-    def test_home_page_returns_correct_html(self):
-        request = HttpRequest()
-        response = home_page(request)
-        self.assertTrue(response.content.startswith(b'<html>'))
-        self.assertIn(b'<title>To-Do lists</title>', response.content)
-        self.assertTrue(response.content.strip().endswith(b'</html>'))
+    def test_home_page_renders_home_template(self):
+        response = self.client.get('/')
+        self.assertTemplateUsed(response, 'home.html')
 
-    def test_home_page_returns_correct_html(self):
-        request = HttpRequest()
-        response = home_page(request)
-        expected_html = render_to_string('home.html')
-
-        self.assertEqual(response.content.decode(), expected_html)
+    def test_home_page_uses_item_from(self):
+        response = self.client.get('/')
+        self.assertIsInstance(response.context['form'], ItemForm)
 
 
 class ListViewTest(TestCase):

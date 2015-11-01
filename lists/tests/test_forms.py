@@ -4,9 +4,6 @@ from lists.forms import EMPTY_LIST_ERROR, ItemForm
 
 
 class ItemFormTest(TestCase):
-    def test_form_renders_item_text_input(self):
-        form = ItemForm()
-        self.fail(form.as_p())
 
     def test_forms_item_input_has_placeholder_and_css_classes(self):
         form = ItemForm()
@@ -20,4 +17,3 @@ class ItemFormTest(TestCase):
             form.errors['text'],
             [EMPTY_LIST_ERROR]
         )
-        form.save()
