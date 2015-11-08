@@ -1,2 +1,6 @@
-Django==1.7
+Django==1.8.5
+Fabric==1.10.2
+ecdsa==0.13
+paramiko==1.15.3
+pycrypto==2.6.1
 selenium==2.48.0
